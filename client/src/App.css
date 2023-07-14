@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;500&family=Chivo+Mono:wght@100;200;300;400;500&display=swap');
+*{
+  font-family: 'Chivo Mono', monospace;
+  font-weight: 300;
+}
+
+.center{
+  max-width: 500px;
+  padding: 20px;
+  margin: 60px auto;
+  color: black;
+  background-color:beige;
+  border: 2px solid aliceblue;
+}
+
+.post{
+  max-width: 500px;
+  width: 500px;
+  color: black;
+  background-color:aliceblue;
+  padding: 20px;
+  margin: 60px auto;
+}
+.pic{
+  max-width: 500px;
+  border: 2px solid #FECD45;
+  background-color:  aliceblue;
+  width: 500px;
+  color: black;
+  margin: 60px auto;
+}
+
+.post h3{
+  background-color:aliceblue;
+}
+.center h3{
+  background-color:beige;
+}
+.center button{
+  background-color: #2568FB;
+  font-weight: 500;
+  color: black;
+}
+.post button{
+  background-color: #2568FB !important;
+  font-weight: 500;
+  color: black;
+}
+.center button:hover{
+  background-color: #2573fb;
+  color: beige;
+}
+
+.nav-wrapper{
+  background-color: #FECD45 !important;
+}
+.nav-wrapper:hover{
+  background-color: #FECD45 !important;
+}
+nav a{
+  color: #2568FB !important;
+  background-color: #FECD45;
+  font-family: 'Anybody';
+  font-weight: 500;
+}
+nav a i{
+  background-color: #FECD45;
+}
+
+.signin{
+  color: white !important;
+  font-family: 'Anybody';
+  font-weight: 500;
+  background-color: #2568FB;
+}
+.signin:hover{
+  background-color: #2573fb;
+}
+.follow{
+  color: #2568FB;
+  font-weight: 500!important;
+}
