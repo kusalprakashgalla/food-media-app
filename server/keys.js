@@ -3,3 +3,10 @@ module.exports={
     JWT_SECRET:"asedgs243342dg6sdgseg8848232dr2frh28",
 }
 //9nC$&Qgg
+
+// const crypto = require('crypto');
+
+// // Generate a random JWT secret with 64 bytes (512 bits) length
+// const jwtSecret = crypto.randomBytes(64).toString('hex');
+
+// console.log('Generated JWT Secret:', jwtSecret);
