@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from "react";
 import M from 'materialize-css';
 import {useNavigate,Link} from 'react-router-dom'
+
+
 function Createpost (){
 
     const navigate = useNavigate();
@@ -43,7 +45,8 @@ function Createpost (){
         data.append("file",photo)
         data.append("upload_preset","mYeat")
         data.append("cloud_name","dvlrcvfeu")
-        fetch("https://api.cloudinary.com/v1_1/dvlrcvfeu/photo/upload",{
+        // https://res.cloudinary.com/dvlrcvfeu/image/upload/v1673237340/sr537jtdhqhprjnq1xgn.jpg
+        fetch("https://api.cloudinary.com/v1_1/dvlrcvfeu/image/upload",{
             method: "post",
             body: data
 

@@ -23,7 +23,7 @@ function Home (){
             <Createpost />
             <div className="Postcard">
             {
-                 data && data.map(e=>{
+                 data && data.reverse().map(e=>{
                     return( 
                     <Postcard key={e._id} username={e.postedBy.name} image={e.photo} title ={e.title} body={e.body}/>  
                     )
